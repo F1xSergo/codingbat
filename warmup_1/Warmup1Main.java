@@ -73,6 +73,93 @@ public class Warmup1Main {
 //        or35(8) → false
         System.out.println("14 - " + a.or35(15));
 
+//        front22("kitten") → "kikittenki"
+//        front22("Ha") → "HaHaHa"
+//        front22("abc") → "ababcab"
+        System.out.println("15 - " + a.front22("kitten"));
+
+//        startHi("hi there") → true
+//        startHi("hi") → true
+//        startHi("hello hi") → false
+        System.out.println("16 - " + a.startHi("hi ho"));
+
+//        icyHot(120, -1) → true
+//        icyHot(-1, 120) → true
+//        icyHot(2, 120) → false
+        System.out.println("17 - " + a.icyHot(12, 120));
+
+//        in1020(12, 99) → true
+//        in1020(21, 12) → true
+//        in1020(8, 99) → false
+        System.out.println("18 - " + a.in1020(9, 99));
+
+//        hasTeen(13, 20, 10) → true
+//        hasTeen(20, 19, 10) → true
+//        hasTeen(20, 10, 13) → true
+        System.out.println("19 - " + a.hasTeen(13, 13, 10));
+
+//        loneTeen(13, 99) → true
+//        loneTeen(21, 19) → true
+//        loneTeen(13, 13) → false
+        System.out.println("20 - " + a.loneTeen(13, 13));
+
+//        delDel("adelbc") → "abc"
+//        delDel("adelHello") → "aHello"
+//        delDel("adedbc") → "adedbc"
+        System.out.println("21 - " + a.delDel("adeli"));
+
+//        mixStart("mix snacks") → true
+//        mixStart("pix snacks") → true
+//        mixStart("piz snacks") → false
+        System.out.println("22 - " + a.mixStart("piz snacks"));
+
+//        startOz("ozymandias") → "oz"
+//        startOz("bzoo") → "z"
+//        startOz("oxx") → "o"
+        System.out.println("23 - " + a.startOz("ozymandias"));
+
+//        intMax(1, 2, 3) → 3
+//        intMax(1, 3, 2) → 3
+//        intMax(3, 2, 1) → 3
+        System.out.println("24 - " + a.intMax(1, 2, 3));
+
+//        close10(8, 13) → 8
+//        close10(13, 8) → 8
+//        close10(13, 7) → 0
+        System.out.println("25 - " + a.close10(7, 13));
+
+//        in3050(30, 31) → true
+//        in3050(30, 41) → false
+//        in3050(40, 50) → true
+        System.out.println("26 - " + a.in3050(30, 31));
+
+//        max1020(11, 19) → 19
+//        max1020(19, 11) → 19
+//        max1020(11, 9) → 11
+        System.out.println("27 - " + a.max1020(21, 0));
+
+//        stringE("Hello") → true
+//        stringE("Heelle") → true
+//        stringE("Heelele") → false
+        System.out.println("28 - " + a.stringE("Hello"));
+
+//        lastDigit(7, 17) → true
+//        lastDigit(6, 17) → false
+//        lastDigit(3, 113) → true
+        System.out.println("29 - " + a.lastDigit(6, 166));
+
+//        endUp("Hello") → "HeLLO"
+//        endUp("hi there") → "hi thERE"
+//        endUp("hi") → "HI"
+        System.out.println("30 - " + a.endUp("hi there"));
+
+//        everyNth("Miracle", 2) → "Mrce"
+//        everyNth("abcdefg", 2) → "aceg"
+//        everyNth("abcdefg", 3) → "adg"
+        System.out.println("31 - " + a.everyNth("Miraclesertdfgbr", 5));
+
+
+
 
 
 
